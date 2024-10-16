@@ -10,7 +10,7 @@ function showMenu(){
     mobileMenu.classList.toggle("slider-menu");
 }
 
-let images=['backgrounds/bg-1.jpg','backgrounds/IMG_20241011_182055.jpg','backgrounds/IMG_20241011_182107.jpg'];
+let images=['backgrounds/bg-1-min.jpg','backgrounds/IMG_20241011_182055-min.jpg','backgrounds/IMG_20241011_182107-min.jpg'];
 let red="red"
 let i=0;
 
