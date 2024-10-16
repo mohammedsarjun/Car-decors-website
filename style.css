@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    
+}
+/*header*/
+.header{
+    height: 70px;
+    background-color: red;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 !important;
+    width: 100vw;
+    z-index: 1;
+}
+
+.header-logo img{
+    width: 120px;
+  
+}
+
+
+.header-menu a
+:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.border-style
+{
+    height: 2px;
+    width: 40px;
+    background-color: black;
+    position: absolute;
+}
+
+.border-style-pa{
+    position: relative;
+}
+
+.header .header-burgur{
+    display: none !important;
+}
+
+.header-menu a{
+    cursor: pointer;
+}
+body .mobile-menu{
+    width: 100vw;
+    position: fixed;
+    background-color: black;
+    overflow: hidden;
+    height: 300px;
+    z-index: 1;
+    top: 70px;
+
+}
+
+body .display-menu{
+    display: flex !important;
+
+}
+.mb-3-cus{
+    margin-bottom: 40px;
+}
+.main-1{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 70px;
+  
+}
+
+.main-1-cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.475);
+    position: relative;
+}
+
+.main-1-cover h1{
+  
+    font-size: 75px;
+}
+
+.main-1-text{
+    color: white;
+    font-family: "Protest Strike", serif;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+
+}  
+.f-main
+.kcs{
+    color: red;
+}
+
+.main-2{
+    
+    width: 100vw;
+}
+.about-us-logo{
+    width: 550px !important;
+    display: flex !important;
+    justify-content: center;
+}
+.about-us-logo img{
+    width: 100%;
+}
+
+.c-spacing{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about-us-heading h1{
+    border-bottom: 4px solid black;
+    padding-bottom: 6px;
+}
+.main-3{
+    position: relative;
+}
+.main-3 h1{
+    border-bottom: 4px solid black;
+    padding-bottom: 6px;
+}
+
+.card-width{
+    width: 300px;
+}
+.product-img{
+    height: 250px;
+    width: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-btn{
+margin-top: 20px;
+}
+
+.slide-products{
+    flex-wrap: wrap;
+    width: 100%;
+ 
+}
+.product-box{
+width: 250px;
+margin-right: 30px;
+}
+
+.pre-btn,.nxt-btn{
+    position: absolute;
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product-img{
+width: 100%;
+overflow: hidden;
+}
+
+.product-box-5,.product-box-6,.product-box-7,.product-box-8{
+    margin-top: 40px;
+}
+.contact-us-heading {
+    text-align: center;
+}
+.contact-us-heading h1{
+    border-bottom: 4px solid black;
+    padding-bottom: 6px;
+    display: inline;
+}
+.contact-us-body{
+    margin-top: 60px;
+}
+.contact-us-body{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.contact-us-form{
+    margin-top: 70px;
+}
+.fifty-p input{
+    height: 40px;
+    width: 80%;
+}
+.fifty-p input::placeholder{
+    padding: 10px;
+}
+.fifty-p textarea::placeholder{
+    padding: 10px;
+}
+.msg-area{
+    width: 100%;
+    height: 100px;
+}
+.contact-us{
+    padding: 20px;
+}
+.footer{
+    width: 100%;
+    background-color: #272727;
+}
+.footer p{
+    margin-bottom: 0 !important;
+}
+.footer-cover{
+    height: 100%;
+}
+
+.footer-logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.location-icon{
+    width: 20px;
+}
+.footer-detail{
+    padding: 20px 0;
+    border-top: 1px solid #6c757d;
+    border-bottom: 1px solid #6c757d;
+}
+.phone-box{
+    border-bottom:0 !important;
+}
+.footer-left{
+    overflow-x: hidden;
+   
+}
+.footer-about{
+    padding: 20px 0;
+}
+
+.social-icons{
+    list-style-type: none;
+}
+.link-decor-none{
+    text-decoration: none !important;
+    color: white !important;
+}
+.social-icons li img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.social-icons li{
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.social-icons{
+    margin-top: 38px;
+    
+}
+
+.footer-spacing{
+    margin-top: 100px;
+}
+/*header completed*/
+/*media*/
+@media screen and (max-width: 768px) {
+.header .header-menu{
+    display: none !important;
+  }
+.header .header-burgur{
+    display: flex !important;
+}
+.header-burgur img{
+    width: 50px;
+}
+
+.main-1-cover h1{
+  
+    font-size: 55px;
+}
+
+.product-box{
+    margin-right: 0;
+}
+  }
+
+  @media screen and (min-width: 768px) {
+    body .mobile-menu{
+        display: none !important;
+    }
+    
+      }
+
+      @media screen and (max-width: 547px){
+        .main-1-cover h1{
+  
+            font-size: 45px;
+        }
+        .main-1-text{
+            left: 5%;
+        }
+       .main-3 .slide-products{
+            justify-content: center !important;
+        }
+      }
+
+      @media screen and (max-width:1200px){
+      .about-us-content  .about-us-logo{
+            width: 350px !important;
+            align-items: center;
+        }
+      }
+
+
+      @media screen and (max-width:992px){
+        .main-2 .about-us-content{
+            flex-direction: column !important;
+            align-items: center !important;
+        }
+
+        .about-us-content .about-us-text{
+            width: 100%;
+            margin-top: 30px;
+            text-align: center;
+        }
+        }
+      
